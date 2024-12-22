@@ -1,3 +1,20 @@
+<!-- Title Section -->
+
+<div class="w-full py-12 mb-8 bg-gradient-to-r from-blue-600 to-blue-800">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+                <span class="block">Tutorial Laravel:</span>
+                <span class="block mt-2 text-blue-200">Cum să construiești un ChatBot AI cu Laravel și OpenAI</span>
+            </h1>
+            <p class="max-w-3xl mx-auto mt-4 text-xl text-blue-100">
+                Învață să implementezi un chatbot inteligent folosind Laravel și API-ul OpenAI
+            </p>
+        </div>
+    </div>
+
+<!-- Chatbot section -->
+
 <div class="fixed z-50 bottom-4 right-4">
     <div class="relative">
         @if ($isOpen)
@@ -103,6 +120,8 @@
             </button>
         @endif
     </div>
+</div>
+
 </div>
 
 <script>
