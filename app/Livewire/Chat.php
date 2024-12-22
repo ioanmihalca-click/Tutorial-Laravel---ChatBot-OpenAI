@@ -21,9 +21,9 @@ class Chat extends Component
 
     public function mount()
     {
-        $this->isOpen = true;
+        $this->isOpen = false;
         $this->conversations = collect([]);
-        $this->loadConversations(); // Este ok să încarci inițial
+        $this->loadConversations(); 
     }
 
     public function loadConversations()
